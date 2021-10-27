@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+#container{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigger img{
+    width: 822px;
+}
+
+#aside {
+    display: flex;
+    flex-direction:column;
+}
+
+#aside img{
+   width: 150px;
+}
