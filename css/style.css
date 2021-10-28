@@ -5,21 +5,56 @@
 }
 
 #container{
-    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh; 
 }
 
-#bigger img{
-    width: 822px;
+.text{
+    position: absolute;
+    top:490px;
+    left: 850px;
+    color: cornsilk;
+    text-align: justify;
+    text-align-last: right;    
 }
 
-#aside {
+#items img{
+    height:352px;
+    position: relative;
+    
+}
+
+.thumb img{
+    display:flex;
+    flex-direction: row;
+    width:149px;
+    filter: brightness(50%)
+}
+
+#thumbs{
+    margin-bottom:5px;
+} 
+
+.active img{
+    filter: brightness(100%);
+    border: 3px solid rgb(204, 204, 204);
+}
+
+#prev{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-size:40px;
+}
+
+#next{
     display: flex;
-    flex-direction:column;
+    justify-content: center;
+    font-size:40px
 }
 
-#aside img{
-   width: 150px;
+#buttons{
+    margin-left: 30px;
 }
