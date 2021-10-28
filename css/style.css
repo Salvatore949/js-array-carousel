@@ -11,19 +11,21 @@
     height: 100vh; 
 }
 
+#items{
+    position: relative;
+}
+
 .text{
     position: absolute;
-    top:490px;
-    left: 850px;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
     text-align: justify;
-    text-align-last: right;    
+    text-align-last: right;
+    bottom:15px;
+    right: 10px;
 }
 
 #items img{
     height:352px;
-    position: relative;
-    
 }
 
 .thumb img{
